@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AdListFragment">
+
+    <fragment
+        android:id="@+id/AdListFragment"
+        android:name="com.digitalturbine.ads.ui.adslist.AdListFragment"
+        android:label="@string/ad_list_fragment_label"
+        tools:layout="@layout/fragment_ad_list">
+
+
+        <action
+            android:id="@+id/action_AdListFragment_to_adDetailFragment"
+            app:destination="@id/adDetailFragment">
+            <argument
+                android:name="Ad"
+                app:argType="com.digitalturbine.ads.data.model.Ad" />
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/adDetailFragment"
+        android:name="com.digitalturbine.ads.ui.adsdetail.AdDetailFragment"
+        android:label="fragment_ad_detail"
+        tools:layout="@layout/fragment_ad_detail" >
+        <argument
+            android:name="Ad"
+            app:argType="com.digitalturbine.ads.data.model.Ad" />
+    </fragment>
+
+
+</navigation>

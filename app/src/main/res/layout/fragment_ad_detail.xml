@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="ad"
+            type="com.digitalturbine.ads.data.model.Ad" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/xx_space"
+            tools:context=".ui.adsdetail.AdDetailFragment">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="@dimen/xx_space"
+                app:imageUrl="@{ad.productThumbnail}"
+                android:layout_marginTop="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{ad.productName}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_marginTop="@dimen/xx_space"
+                android:layout_marginStart="@dimen/xx_space"
+                android:layout_marginEnd="@dimen/xx_space"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Monster Legends" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{ad.rating}"
+                android:layout_marginStart="@dimen/xx_space"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintEnd_toStartOf="@+id/rating_image"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                tools:text="4.5" />
+
+            <TextView
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{ad.categoryName}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="Puzzle"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintTop_toBottomOf="@+id/rating"
+                app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+            <ImageView
+                android:id="@+id/rating_image"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                app:imageUrl="@{ad.averageRatingImageURL}"
+                android:layout_marginStart="@dimen/x_space"
+                app:layout_constraintEnd_toStartOf="@+id/number_of_ratings"
+                app:layout_constraintStart_toEndOf="@+id/rating"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                app:layout_constraintBottom_toTopOf="@+id/category_name" />
+
+            <TextView
+                android:id="@+id/number_of_ratings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{ad.numberOfRatings}"
+                android:layout_marginStart="@dimen/x_space"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rating_image"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                tools:text="100" />
+
+            <Button
+                android:id="@+id/action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{ad.callToAction}"
+                tools:text="Install Now"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/number_of_ratings"
+                android:layout_marginTop="@dimen/xx_space"
+                android:layout_marginEnd="@dimen/xx_space" />
+
+            <TextView
+                android:id="@+id/product_description"
+                android:text="@{ad.productDescription}"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/xx_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/action_button" />
+
+
+            <TextView
+                android:id="@+id/app_id"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_description"
+                android:text="@{ad.appId}" />
+
+            <TextView
+                android:id="@+id/bid_rate"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/app_id"
+                android:text="@{ad.bidRate}" />
+
+            <TextView
+                android:id="@+id/billing_type_id"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bid_rate"
+                android:text="@{ad.billingTypeId}" />
+
+            <TextView
+                android:id="@+id/campaign_display_order"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/billing_type_id"
+                android:text="@{ad.campaignDisplayOrder}" />
+
+            <TextView
+                android:id="@+id/campaign_id"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/campaign_display_order"
+                android:text="@{ad.campaignId}" />
+
+            <TextView
+                android:id="@+id/campaign_type_id"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/campaign_id"
+                android:text="@{ad.campaignTypeId}" />
+
+            <TextView
+                android:id="@+id/creative_id"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/campaign_type_id"
+                android:text="@{ad.creativeId}" />
+
+            <TextView
+                android:id="@+id/home_screen"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creative_id"
+                android:text="@{ad.homeScreen}" />
+
+            <TextView
+                android:id="@+id/impression_tracking_url"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/home_screen"
+                android:text="@{ad.impressionTrackingURL}" />
+
+            <TextView
+                android:id="@+id/is_random_pick"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/impression_tracking_url"
+                android:text="@{ad.isRandomPick}" />
+
+
+            <TextView
+                android:id="@+id/product_id"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/is_random_pick"
+                android:text="@{ad.productId}" />
+
+            <TextView
+                android:id="@+id/tsti_eligible"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_id"
+                android:text="@{ad.tstiEligible}" />
+
+            <TextView
+                android:id="@+id/sti_enabled"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="@dimen/xx_space"
+                android:layout_marginTop="@dimen/x_space"
+                android:layout_marginStart="@dimen/xx_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tsti_eligible"
+                android:text="@{ad.stiEnabled}" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</layout>

@@ -1,0 +1,288 @@
+<ads
+    xmlns="http://www.appia.com/AS/get/ads/2013-01">
+    <ad>
+        <appId>com.zynga.ozmatch</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-5-5.png</averageRatingImageURL>
+        <bidRate>0.000</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>1</campaignDisplayOrder>
+        <campaignId>24058</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Puzzle</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=24058&creativeId=483970&packageName=com.zynga.ozmatch&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=1&enc=true&ts=1740d44177c&algorithmId=-4&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>483970</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=24058&creativeId=483970&campaignDisplayOrder=1&ts=1740d44177c&sessionId=techtestsession&packageName=com.zynga.ozmatch&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-4&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>false</isRandomPick>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Match your way to meet the wonderful Wizard of Oz in this amazing puzzle adventure!</productDescription>
+        <productId>15338</productId>
+        <productName>Wizard of Oz: Magic Match</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/15338/1385be772f424a3cb42cd8f07747b05b.png</productThumbnail>
+        <rating>5.0</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>com.bigfishgames.gummydropgoogle</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-half-5.png</averageRatingImageURL>
+        <bidRate>0.025</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>2</campaignDisplayOrder>
+        <campaignId>18487</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Puzzle</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=18487&creativeId=416212&packageName=com.bigfishgames.gummydropgoogle&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=2&enc=true&ts=1740d44177d&algorithmId=-1&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>416212</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=18487&creativeId=416212&campaignDisplayOrder=2&ts=1740d44177d&sessionId=techtestsession&packageName=com.bigfishgames.gummydropgoogle&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-1&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>true</isRandomPick>
+        <minOSVersion>Android 4.0</minOSVersion>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Stop crushing & start squishing! Match your way around this candy world!</productDescription>
+        <productId>12489</productId>
+        <productName>Gummy Drop!</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/12489/b5cb787ded7046edb4db74b557cd3af9.png</productThumbnail>
+        <rating>4.5</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>com.epicwaronline.ms</appId>
+        <appPrivacyPolicyUrl>http://www.epicwar-online.com/privacypolicy.html</appPrivacyPolicyUrl>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-5.png</averageRatingImageURL>
+        <bidRate>0.025</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>3</campaignDisplayOrder>
+        <campaignId>18242</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Strategy</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=18242&creativeId=409337&packageName=com.epicwaronline.ms&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=3&enc=true&ts=1740d44177d&algorithmId=-1&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>409337</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=18242&creativeId=409337&campaignDisplayOrder=3&ts=1740d44177d&sessionId=techtestsession&packageName=com.epicwaronline.ms&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-1&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>true</isRandomPick>
+        <minOSVersion>Android 2.3</minOSVersion>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Become an action hero like Arnold Schwarzenegger in the new game of modern war - Mobile Strike!</productDescription>
+        <productId>12253</productId>
+        <productName>Mobile Strike</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/12253/84922d5d6a2f43d19c0e48a55d515fb0.png</productThumbnail>
+        <rating>4.0</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>es.socialpoint.MonsterLegends</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-half-5.png</averageRatingImageURL>
+        <bidRate>0.000</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>4</campaignDisplayOrder>
+        <campaignId>24051</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Role Playing</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=24051&creativeId=483964&packageName=es.socialpoint.MonsterLegends&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=4&enc=true&ts=1740d44177d&algorithmId=-4&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>483964</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=24051&creativeId=483964&campaignDisplayOrder=4&ts=1740d44177d&sessionId=techtestsession&packageName=es.socialpoint.MonsterLegends&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-4&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>false</isRandomPick>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Battle with the ultimate monster fighting force to lead them to victory in Monster Legends! </productDescription>
+        <productId>15332</productId>
+        <productName>Monster Legends</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/15332/46b4ab3e5354412db5624e1ae22441d2.png</productThumbnail>
+        <rating>4.5</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>com.sgn.pandapop.gp</appId>
+        <appPrivacyPolicyUrl>http://pandapop-game.com/privacy-policy/</appPrivacyPolicyUrl>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-half-5.png</averageRatingImageURL>
+        <bidRate>0.025</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>5</campaignDisplayOrder>
+        <campaignId>18238</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Puzzle</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=18238&creativeId=376584&packageName=com.sgn.pandapop.gp&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=5&enc=true&ts=1740d44177e&algorithmId=-4&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>376584</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=18238&creativeId=376584&campaignDisplayOrder=5&ts=1740d44177e&sessionId=techtestsession&packageName=com.sgn.pandapop.gp&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-4&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>false</isRandomPick>
+        <minOSVersion>Android 4.0</minOSVersion>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Strategically burst matching bubbles to help beat him & return the cubs to their worried mother!</productDescription>
+        <productId>11050</productId>
+        <productName>Panda Pop</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/11050/40c2670aed20493f8a8c844c9e424f8e.png</productThumbnail>
+        <rating>4.5</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>com.jamcity.snoopypop</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-5-5.png</averageRatingImageURL>
+        <bidRate>0.000</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>6</campaignDisplayOrder>
+        <campaignId>24054</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Puzzle</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=24054&creativeId=483967&packageName=com.jamcity.snoopypop&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=6&enc=true&ts=1740d44177e&algorithmId=-4&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>483967</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=24054&creativeId=483967&campaignDisplayOrder=6&ts=1740d44177e&sessionId=techtestsession&packageName=com.jamcity.snoopypop&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-4&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>false</isRandomPick>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Pop bubbles and explore all the fun the Peanuts Gang has in store for you!</productDescription>
+        <productId>15336</productId>
+        <productName>Snoopy Pop</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/15336/f89eb74ffdce4cbdb25a689615a38e7d.png</productThumbnail>
+        <rating>5.0</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>com.apalon.mandala.coloring.book</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-half-5.png</averageRatingImageURL>
+        <bidRate>0.000</bidRate>
+        <billingTypeId>2</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>7</campaignDisplayOrder>
+        <campaignId>27676</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Education</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=27676&creativeId=496968&packageName=com.apalon.mandala.coloring.book&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=7&enc=true&ts=1740d44177e&algorithmId=-1&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>496968</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=27676&creativeId=496968&campaignDisplayOrder=7&ts=1740d44177e&sessionId=techtestsession&packageName=com.apalon.mandala.coloring.book&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-1&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>true</isRandomPick>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Coloring Book</productDescription>
+        <productId>16111</productId>
+        <productName>Coloring Book for Me & Mandala</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/16111/232f3d3325d54282b3d7935e508b9d5b.png</productThumbnail>
+        <rating>4.5</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>jp.gungho.padEN</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-half-5.png</averageRatingImageURL>
+        <bidRate>0.000</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>8</campaignDisplayOrder>
+        <campaignId>24053</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Puzzle</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=24053&creativeId=483966&packageName=jp.gungho.padEN&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=8&enc=true&ts=1740d44177f&algorithmId=-1&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>483966</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=24053&creativeId=483966&campaignDisplayOrder=8&ts=1740d44177f&sessionId=techtestsession&packageName=jp.gungho.padEN&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-1&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>true</isRandomPick>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Puzzle & Dragons is an addictive and FREE match-3 puzzle game with classic monster-collecting fun!</productDescription>
+        <productId>15334</productId>
+        <productName>Puzzle & Dragons</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/15334/63dc14b4397a4adcb045b9b5990ad121.png</productThumbnail>
+        <rating>4.5</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>com.com2us.smon.normal.freefull.google.kr.android.common</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-half-5.png</averageRatingImageURL>
+        <bidRate>0.000</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>9</campaignDisplayOrder>
+        <campaignId>24057</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Role Playing</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=24057&creativeId=483969&packageName=com.com2us.smon.normal.freefull.google.kr.android.common&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=9&enc=true&ts=1740d44177f&algorithmId=-1&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>483969</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=24057&creativeId=483969&campaignDisplayOrder=9&ts=1740d44177f&sessionId=techtestsession&packageName=com.com2us.smon.normal.freefull.google.kr.android.common&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-1&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>true</isRandomPick>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>An action-packed fantasy RPG with over 70 million Summoners around the world!</productDescription>
+        <productId>15337</productId>
+        <productName>Summoners War</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/15337/224524ad20724d07b5ce2841cd5f5cea.png</productThumbnail>
+        <rating>4.5</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+    <ad>
+        <appId>com.selfawaregames.acecasino</appId>
+        <averageRatingImageURL>https://cdn1.appia.com/cdn/adpub/appwallv1/rated-4-half-5.png</averageRatingImageURL>
+        <bidRate>0.000</bidRate>
+        <billingTypeId>1</billingTypeId>
+        <callToAction>Install Now</callToAction>
+        <campaignDisplayOrder>10</campaignDisplayOrder>
+        <campaignId>24044</campaignId>
+        <campaignTypeId>2</campaignTypeId>
+        <categoryName>Casino</categoryName>
+        <clickProxyURL>https://prlds.amer-prod.digitalturbine.com/v2/preloadAd.jsp?siteId=10777&deviceId=4230&spotId=&sessionId=techtestsession&campaignId=24044&creativeId=483900&packageName=com.selfawaregames.acecasino&fulfillmentTypeId=1&placementId=&campaignDisplayOrder=10&enc=true&ts=1740d44177f&algorithmId=-1&partner=154&homeScreen=false</clickProxyURL>
+        <creativeId>483900</creativeId>
+        <externalMetadata
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <homeScreen>false</homeScreen>
+        <impressionTrackingURL>https://imps.appia.com/v2/impressionAd.jsp?siteId=10777&campaignId=24044&creativeId=483900&campaignDisplayOrder=10&ts=1740d44177f&sessionId=techtestsession&packageName=com.selfawaregames.acecasino&enc=true&eventGroupId=EVTGID1597950400233330399074631&algorithmId=-1&partner=154&subSite=[SUBSITE]</impressionTrackingURL>
+        <isRandomPick>true</isRandomPick>
+        <numberOfRatings>10,000+</numberOfRatings>
+        <productDescription>Play FREE Casino games and slot machines in the #1 FREE Casino app in the world</productDescription>
+        <productId>15327</productId>
+        <productName>Big Fish Casino</productName>
+        <productThumbnail>https://prod-static-images.s3.amazonaws.com/shared/creatives/15327/d2eae5e7c20746779a27bc1098ebd83f.png</productThumbnail>
+        <rating>4.5</rating>
+        <numberOfDownloads>10,000+</numberOfDownloads>
+        <tstiEligible>false</tstiEligible>
+        <stiEnabled>false</stiEnabled>
+        <postInstallActions/>
+    </ad>
+</ads>

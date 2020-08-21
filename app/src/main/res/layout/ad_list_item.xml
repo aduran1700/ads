@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="ad"
+            type="com.digitalturbine.ads.data.model.Ad" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x_space"
+        android:layout_marginBottom="@dimen/x_space">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="@dimen/xx_space"
+
+            app:imageUrl="@{ad.productThumbnail}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{ad.productName}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="@dimen/xx_space"
+            android:layout_marginEnd="@dimen/xx_space"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Monster Legends" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{ad.rating}"
+            android:layout_marginStart="@dimen/xx_space"
+            android:layout_marginEnd="@dimen/xx_space"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            tools:text="4.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
