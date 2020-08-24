@@ -7,13 +7,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.digitalturbine.ads.R
 import com.digitalturbine.ads.databinding.FragmentAdDetailBinding
-import kotlinx.android.synthetic.main.activity_main.*
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
@@ -44,8 +44,10 @@ class AdDetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        toolbar.setNavigationIcon(R.drawable.ic_arrow_back)
-        toolbar.setNavigationOnClickListener {
+        val toolbar = activity?.findViewById<Toolbar>(R.id.toolbar)
+        toolbar?.setNavigationIcon(R.drawable.ic_arrow_back)
+        toolbar?.setNavigationOnClickListener {
+            toolbar.navigationIcon = null
             findNavController().navigateUp()
         }
     }
